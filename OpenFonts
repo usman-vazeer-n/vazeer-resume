@@ -1,0 +1,217 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Usman Vazeer- One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% usman vazeer (http://usmanvazeer.com)
+%
+% Original repository:
+% https://github.com/usman-vazeer-n/vazeer-resume/new/main
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{usman vazeer-resume-openfont}
+\usepackage{fancyhdr}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Usman}{Vazeer N}{ \urlstyle{same}\href{https://nusman-vazeer.super.site/}{usmanvazeer.com}| \href{https://www.facebook.com/profile.php?id=100075085508853}{fb.co/UV}\\
+\href{usmann.vazeer@outlook.com}{Outlook.com} | +966509774276 | \href{mailto:nusman.vazeer@gmail.com}{nusman.vazeer@gmail.com}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{Edureka}
+\descript{Master Program In FullStack Web Development}
+\location{Present - Sep 2024 }
+\sectionsep
+
+\subsection{The American College}
+\descript{Bachelor Of Business Administration}
+\location{Jul 2023 | Madurai,IND}
+College of Arts and Science \\
+\location{ Cum. GPA: 3/ 4.0} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+Facebook:// \href{https://www.facebook.com/profile.php?id=100075085508853}{\bf UsmanVazeer} \\
+Github:// \href{https://github.com/usman-vazeer-n}{\bf Usman-vazeer-N} \\
+LinkedIn://  \href{https://www.linkedin.com/in/usman-vazeer-nazeer-ahamed-aa0937220/}{\bf Usman} \\
+Quora://  \href{https://www.quora.com/profile/Usman-Vazeer-2}{\bf Usman-Vazeer}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{COURSEWORK}
+\subsection{Graduate}
+Advanced Machine Learning \\
+Machine Learning with Bigdata \\
+Advanced Interactive Graphics \\
+Digital Marketing and ECommerce \\
+Python to Access Web Data \\
+Python for Data Structure \\
+Advanced Supply chain management \\
+\sectionsep
+
+\subsection{Under Progress}
+DBMS  \\
+Artificial Intelligence Graduate Certificate \\
+Google IT Automation \\
+Computer Graphics \\
+Unix Tools and Scripting (Anticipated Enrollment)\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+JavaScript  \textbullet{} Python \textbullet{} PHP \\
+\textbullet{}HTML \textbullet{} CSS \textbullet{} React Js \textbullet{} Ruby 
+\textbullet{} C++\\ 
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.66\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     OBJECTIVES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Summary}
+\item { Hello, I am N. Usman Vazeer, Enthusiastic about securing a challenging role within a reputable IT organization, I aim to leverage my strong database management skills to contribute to the organization's growth while continuously expanding my knowledge of emerging IT trends}                                                                                     
+\item { I am well-equipped to excel in the dynamic IT landscape and enhance organizational efficiency} 
+
+
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     Achievement
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{ACHIEVEMENTS}
+\runsubsection{Event Planning Committee}
+\descript{| Member}
+\location{Sep 2020 – Feb 2023 | AMC }
+\textbullet{}Event Planner: Contributed to the Planning and Execution of college events, including campus-wide festivals, cultural celebrations and 
+student orientation programs
+\textbullet{}Leadership Role: Led a team Of Volunteers in coordinating logistics, managing budgets, and ensuring the seamless execution of events
+\sectionsep
+
+\runsubsection{Campus IT Support Team}
+\descript{| Member}
+\location{Aug 2020 – Mar 2021 | AMC }
+\textbullet{} Organized TechWorkshop: Coordinated and conducted workshops on topics like cybersecurity, software application, and hardware maintenance for the college community, increasing teaching literacy
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects} 
+\begin{tabular}{rll}
+2022	     & Completed Machine Learning Capstone Project\\
+2021	     & Awarded an Honors Certificate in Exploratory Data Analysis For ML\\
+2023	     & Built an ECommerce Website Using HTML, CSS, and JavaScript \\
+2023    & Attended a 2-day workshop on Java  \\
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LANGUAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{LANGUAGE}
+\runsubsection{English}   \descript{| Advanced}
+\runsubsection{Hindi}       \descript{| Advanced}
+\runsubsection{Urdu}        \descript{| Native}
+\runsubsection{Tamil}       \descript{| Advanced}
+\runsubsection{German}   \descript{| Beginner} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SOFT SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{SOFT SKILLS}
+\textbullet{} communication and Networking \textbullet{} Flexibility
+\textbullet{} Critical Thinking \textbullet{} Negotiation
+\textbullet{} TeamWorking \textbullet{} Creativity \textbullet{} Emotional intelligence \textbullet{} Web Design \textbullet{} SEO \textbullet{} SEM
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
